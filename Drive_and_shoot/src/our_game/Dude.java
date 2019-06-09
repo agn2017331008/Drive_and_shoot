@@ -9,11 +9,11 @@ import javax.swing.ImageIcon;
 public class Dude {
 	int x, dx , y, dy, nx2, nx, h, b;
 	Image still, rstill, car, rcar, fly;
-	ImageIcon i = new ImageIcon("/Drive_and_shoot/src/res/still.gif");
-	ImageIcon m = new ImageIcon("/Drive_and_shoot/src/res/car.png");
-	ImageIcon n = new ImageIcon("/Drive_and_shoot/src/res/rcar.png");
-	ImageIcon j = new ImageIcon("/Drive_and_shoot/src/res/rstill.gif");
-	ImageIcon k = new ImageIcon("/Drive_and_shoot/src/res/fly.gif");
+	ImageIcon i = new ImageIcon("src/res/still.gif");
+	ImageIcon m = new ImageIcon("src/res/car.png");
+	ImageIcon n = new ImageIcon("src/res/rcar.png");
+	ImageIcon j = new ImageIcon("src/res/rstill.gif");
+	ImageIcon k = new ImageIcon("src/res/fly.gif");
 
 	public Dude(){
 		still = m.getImage();
