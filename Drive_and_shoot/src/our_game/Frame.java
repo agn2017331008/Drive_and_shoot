@@ -21,7 +21,7 @@ public class Frame {
 			frame.setVisible(true);
 			
 			AudioInputStream sample;
-			sample = AudioSystem.getAudioInputStream(new File("/Drive_and_shoot/src/Resources/rap.wav"));
+			sample = AudioSystem.getAudioInputStream(new File("src/Resources/rap.wav"));
 			
 			Clip clip = AudioSystem.getClip();
 			clip.open(sample);

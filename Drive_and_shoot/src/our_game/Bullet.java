@@ -12,7 +12,7 @@ public class Bullet {
 	public Bullet(int startX, int startY){
 		x = startX;
 		y = startY;
-		ImageIcon newBullet = new ImageIcon("/Drive_and_shoot/src/res/bullet_img.gif");
+		ImageIcon newBullet = new ImageIcon("src/res/bullet_img.gif");
 		img = newBullet.getImage();
 	}
 	public int getX(){
